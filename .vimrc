@@ -11,7 +11,7 @@ call plug#end()
 " Global Sets """"""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 set number
-set mouse=a
+set mouse=r
 set cursorline
 set incsearch
 set showcmd
