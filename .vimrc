@@ -5,6 +5,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'preservim/nerdtree'
 call plug#end()
 
 
@@ -42,7 +43,7 @@ colorscheme codedark
 
 
 " Remaps """""""""""""""""""""""""""
-" remaps aqui
+nmap <C-a> :NERDTreeToggle<CR>
 
 
 
