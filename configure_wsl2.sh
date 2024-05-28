@@ -15,6 +15,7 @@ echo -e "\e[32m---> \e[0m Instalando net-tools..."  && sudo apt install net-tool
 echo -e "\e[32m---> \e[0m Instalando zsh..."  && sudo apt install zsh -y
 echo -e "\e[32m---> \e[0m Instalando curl..."  && sudo apt install curl -y
 echo -e "\e[32m---> \e[0m Instalando vim..."  && sudo apt install vim -y
+echo -e "\e[32m---> \e[0m Instalando yt-dlp..."  && sudo apt install yt-dlp -y
 echo -e "\e[32m---> \e[0m Instalando awscli..."  && sudo curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && sudo unzip awscliv2.zip && sudo ./aws/install
 
 echo -e "\e[32m---> \e[0m Instalando Oh My Zsh..." && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
